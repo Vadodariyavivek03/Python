@@ -12,7 +12,14 @@ y = int(input("Enter the number2 : "))
 
 #OR - It will check both value false then it's give answer false otherwise true.
 
-if x > 0 or y > 0:
+# if x > 0 or y > 0:
+#     print("TRUE")
+# else:
+#     print("FALSE")
+
+#NOT - It will reverse the result, returns False if the result is true.
+
+if not(x > 0 and y > 0):
     print("TRUE")
 else:
     print("FALSE")
