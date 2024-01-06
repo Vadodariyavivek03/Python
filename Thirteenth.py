@@ -1,4 +1,4 @@
-#Comparison(Reletional) Operators  
+# Comparison(Reletional) Operators  
 
 x = int(input("Enter the number1 : "))
 y = int(input("Enter the number2 : "))

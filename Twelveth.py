@@ -1,4 +1,4 @@
-#Assignment Operators  -- used to assigning values to the operands on the left-hand side.
+# Assignment Operators  -- used to assigning values to the operands on the left-hand side.
 
 x = int(input("Enter the number1 : "))
 y = int(input("Enter the number2 : "))

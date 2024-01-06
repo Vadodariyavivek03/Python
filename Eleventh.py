@@ -1,5 +1,5 @@
-#Arithmatic Operators.
-#Simple Calculator.
+# Arithmatic Operators.
+# Simple Calculator.
 
 x = int(input("Enter the number1 : "))
 y = int(input("Enter the number2 : "))
