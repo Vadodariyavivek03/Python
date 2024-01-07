@@ -31,7 +31,7 @@ print("| : " ,x | y)
 print("^ : " ,x ^ y)
 print("~x: " ,~x)     # The ~ operator inverts each bit (0 becomes 1 and 1 becomes 0).
 print("~y: " ,~y)
-print("<< : " ,x << y)
+print("<< : " ,x << y)                                                                   
 print(">> : " ,x >> y)
 
 # The << operator inserts the specified number of 0's (in this case 2) from the right and let the same amount of leftmost bits fall off:
