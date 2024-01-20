@@ -7,5 +7,6 @@ x = re.search("^Hi.*India.$", str)
 
 if x:
   print("Sure! Something is exist.")
+  
 else:
   print("Not exist.")
