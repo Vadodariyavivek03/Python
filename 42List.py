@@ -1,9 +1,18 @@
-# List operator : 
+# map() : this function returns a map object(which is an iterator) of the results after applying the given function to each item of
+# ________a given iterable. (list, tuple etc.)
 
-my_list = [25,69,42,75,36,12,5,89,32,24,54]
+l = ['rajkot', 'surat','ahmedabad', 'morbi']
 
-x = list(my_list)
+str = list(map(list, l))
+print("Map : ",str)
 
-print(x)
+# map() : 
 
-   
+def add(n):
+	return n + n
+
+n = (1, 2, 3, 4)
+result = map(add, n)
+print("Map : ",list(result))
+
+# reduce() : 

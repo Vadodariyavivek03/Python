@@ -1,5 +1,13 @@
 # List : Used to store multiple items in a single variable. list is orderd, mutable and allow duplicate value.
 
+# list() : 
+
+my_list = ['kutch','porbandar', 'baroda']
+
+x = list(my_list)
+
+print("List : ",x)
+
 # Accessing values in list :
 
 list = [25,69,42,75,36,12,5,89,32,24,54]
