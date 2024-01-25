@@ -7,11 +7,24 @@ print(list)
 
 print(len(list))
 
+print(min(list))
+
+print(max(list))
+
 print(type(list))
 
 print(list[2:8:2])
  
 print(list[::-1])
 
+# update list : 
+
 list[2] = 23
 print(list)
+
+list[2:6] = [10, 20, 30, 40]
+print(list)
+
+# Delete list : 
+
+print(list.clear())
