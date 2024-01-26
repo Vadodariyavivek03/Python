@@ -36,3 +36,17 @@ print(list)
 # Delete list : 
 
 print(list.clear())
+
+# cmp() : This is python 2 function. In Python 3 we can use 'sorted()' function or we can use compare operator( == , <=, >=, !=, <, >).
+
+# list1 = [1, 2, 3, 4]
+# list2 = [1, 2, 3, 4]
+
+# x = cmp(list1, list2)
+
+# if x == 0:
+#     print("List are equal.")
+# elif x < 0:
+#     print("List1 is smaller.")
+# else:
+#     print("List1 is larger.")
