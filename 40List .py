@@ -35,7 +35,11 @@ print(list)
 
 # Delete list : 
 
-print(list.clear())
+del list
+print(list)
+
+# or clear method use........
+# print(list.clear())
 
 # cmp() : This is python 2 function. In Python 3 we can use 'sorted()' function or we can use compare operator( == , <=, >=, !=, <, >).
 
