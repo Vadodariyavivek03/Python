@@ -13,13 +13,15 @@ dict = {
 print(dict)
 print(type(dict))
 
-print("City :",dict.get('City'))
+print("City :",dict.get('City'))   # or print(dict['City])
 
 print("Keys :",dict.keys())
 
 print("Values :",dict.values())
 
 print("Items : ",dict.items())
+
+print("Length : ",len(dict))
 
 # Update dictionary : 
 
@@ -50,7 +52,7 @@ print("Delete : ",dict)
 del dict
 print("Delete : ",dict)
 
-# clear :
+# clear() :
 
 x = {
          'Collage' : "Darshan University",
