@@ -23,4 +23,16 @@ print("Intersection : ",z)
 z = x.difference(y)
 print("Difference : ",z)
 
+print(3 in x)
+print(2 not in y)
+
+print(len(x))
+
+z = set(x)
+print(z)
+
+# For Loop : 
+
+for i in x:
+    print("Frozenset : ",i)
 
