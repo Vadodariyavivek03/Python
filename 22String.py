@@ -7,7 +7,7 @@ x = '5693'
 print(x.isnumeric())
 print(x.isalpha())
 
-y = '123.5'
+y = '123.52'
 print(y.isdecimal())
 
  
