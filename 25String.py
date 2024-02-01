@@ -1,12 +1,14 @@
 # Regular expression 
 
-import re
+import re 
 
-str = "Hi, my name is vivek and i am from Rajkot, Gujrat, India."
-x = re.search("^Hi.*India.$", str)
+str ='Hi, my name is vivek and i am from Rajkot, Gujrat, India.'
 
-if x:
-  print("Sure! Something is exist.")
+x = re.search("^Hi.*India.$",str)
+
+if x : 
+    print("Something is exist.")
+else : 
+    print("Not exists.")
+
   
-else:
-  print("Not exist.")
