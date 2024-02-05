@@ -2,7 +2,7 @@
 
 import re
 
-pattern = re.compile(r'gujrat', re.IGNORECASE)
+pattern = re.compile(r'india', re.IGNORECASE)
 
 str = "Hi, my name is vivek and i am from Rajkot, Gujrat, India."
 

@@ -31,6 +31,7 @@ class Addition:
 	def calculate(self):
 		self.answer = self.first + self.second
 
+
 obj1 = Addition(1000, 2000)             # creating object of the class
                                         # this will invoke parameterized constructor
 obj2 = Addition(10, 20)                 # creating second object of same class

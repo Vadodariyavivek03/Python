@@ -25,8 +25,8 @@ def draw_happy_face():
     turtle.speed(2)
     turtle.hideturtle()
     
-    turtle.color("yellow")
-    draw_circle("yellow", 50, 0, 0)
+    turtle.color("red")
+    draw_circle("red", 50, 0, 0)
     
     draw_eyes()
     draw_mouth()

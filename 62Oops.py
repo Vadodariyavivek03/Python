@@ -7,7 +7,7 @@ class Public:
         self.value = value  # Public attribute
 
     def display(self):
-        print(self.value)  # Public method
+        print(self.value)  # Public method 
 
 obj = Public(10)
 obj.display()

@@ -10,13 +10,13 @@ class Polygon(ABC):
 
 class Triangle(Polygon): 
 
-	def noofsides(self):            # overriding abstract method 
+	def noofsides(self):          # overriding abstract method 
 		print("I have 3 sides") 
 
 class Pentagon(Polygon): 
 
 	def noofsides(self): 
-		print("I have 5 sides") 
+		print("I have 5 sides")   
 
 class Hexagon(Polygon): 
  

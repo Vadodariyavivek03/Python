@@ -55,7 +55,7 @@ else:
 try:
   print(x)
 
-except:
+except SyntaxError:
   print("Something went wrong")
   
 finally:

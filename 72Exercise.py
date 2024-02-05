@@ -10,7 +10,7 @@ print("After adding ('e1', 5) to the first dictionary:", a)
 a.remove({'a2': 2, 'b2': 1})
 print("After removing {'a2': 2, 'b2': 1}:", a)
 
-if 'b1' in a[0]:
+if 'b1' in a[0]: 
     del a[0]['b1']
 print("After removing 'b1' from the first dictionary:", a)
 
